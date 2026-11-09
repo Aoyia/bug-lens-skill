@@ -24,6 +24,16 @@ npx skills add Aoyia/bug-lens-skill -y
 npx skills update bug-lens-triage
 ```
 
+## 🗑️ Uninstalling Skill
+
+```bash
+# Global uninstall
+npx skills remove bug-lens-triage -g -y
+
+# Or project-scoped uninstall
+npx skills remove bug-lens-triage -y
+```
+
 ## 📖 How It Works
 
 Once installed, your AI programming assistant automatically gains the ability to:
