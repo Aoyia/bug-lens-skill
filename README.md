@@ -37,9 +37,9 @@ npx skills remove bug-lens-triage -y
 ## 📖 How It Works
 
 Once installed, your AI programming assistant automatically gains the ability to:
-1. Inspect `web-bug-report-*.zip` and `bug-lens-screenshot-*.zip` archives directly in memory.
-2. Auto-extract key screenshots with user annotations and red-ring click markers.
-3. Drill down into Console logs, Network payloads, and DOM/CSS cascade trees without polluting your workspace.
+1. Idempotently extract `web-bug-report-*.zip` and `bug-lens-screenshot-*.zip` archives into an isolated workspace directory with plain formatted `data/*.json` and an `INDEX.md` schema index.
+2. Inspect key screenshots, extracted video frames, Console errors, Network payloads, and DOM/CSS cascade trees without polluting your workspace.
+3. Automatically prune historical workspace packages via an LRU cache (defaulting to the 10 most recent packs).
 
 ## 🔗 Links & Feedback
 
