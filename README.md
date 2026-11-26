@@ -1,5 +1,7 @@
 # Bug Lens Triage Skill
 
+**English** | [中文文档](README_zh.md)
+
 > Official Agent Skill for **[Bug Lens](https://github.com/Aoyia/bug-lens)** — Browser bug evidence triage & AI code fix.
 
 This repository distributes the official `bug-lens-triage` skill (powered by the native Rust `bug-lens-cli` binary) for modern AI coding assistants (Claude Code, Cursor, Windsurf, Antigravity, Codex, etc.).
